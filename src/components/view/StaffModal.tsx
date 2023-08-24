@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Modal from '../modal/Modal'
 import TextField from '../inputs/TextField'
 import moment from 'moment'
-import ImageDropzone from '../dropzone/mongodb:/imageDropZone'
+import ImageDropzone from '../dropzone/ImageDropzone'
 import { convertToBase64 } from '@/utils/functions'
 
 interface IStaff {

@@ -1,7 +1,7 @@
 import React from 'react'
 import Modal from '../modal/Modal'
 import TextField from '../inputs/TextField'
-import ImageDropzone from '../dropzone/mongodb:/imageDropZone'
+import ImageDropzone from '../dropzone/ImageDropzone'
 
 interface IHouseComp {
     open: boolean;
