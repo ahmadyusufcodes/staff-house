@@ -15,7 +15,7 @@ const ImageDropzone: React.FC<ImageDropzoneProps> = ({ maxImages, images, setIma
       .filter((file) => file.type.startsWith('image/'))
       .slice(0, maxImages - images.length);
 
-    setImages([...images, ...newImages]);
+    setImages([...images, ...newImages]); 
   };
 
   const handleDragOver = (e: React.DragEvent<HTMLDivElement>) => {
