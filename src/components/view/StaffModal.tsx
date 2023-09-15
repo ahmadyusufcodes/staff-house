@@ -14,6 +14,7 @@ interface IStaff {
     email: string;
     phone: string;
     address: string;
+    department: string;
     password: string;
     staffId: string;
 }
@@ -138,6 +139,15 @@ export default function HouseModal({
                     placeholder="e.g."
                     value={staff.address}
                     onChange={(e) => handleSetStaff("address", e.target.value)}
+                />
+            </div>
+            <div className="col-span-4 sm:col-span-4">
+                <TextField
+                    rounded="lg"
+                    label="Department"
+                    placeholder="e.g."
+                    value={staff.department}
+                    onChange={(e) => handleSetStaff("department", e.target.value)}
                 />
             </div>
             {/* <div className="col-span-4 sm:col-span-4">

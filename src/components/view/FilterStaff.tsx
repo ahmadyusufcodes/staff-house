@@ -17,6 +17,7 @@ export default function FilterHouses() {
     phone: "",
     address: "",
     password: "",
+    department: "",
     staffId: ""
   });
   const [editStaff, setEditStaff] = React.useState(null)
@@ -43,6 +44,7 @@ export default function FilterHouses() {
                 phone: "",
                 address: "",
                 password: "",
+                department: "",
                 staffId: ""
                 });
             setOpen(false)
